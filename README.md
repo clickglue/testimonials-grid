@@ -32,8 +32,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Code on Github](https://github.com/clickglue/four-cards)
-- Live Site URL: [Page on Github](https://clickglue.github.io/four-cards)
+- Solution URL: [Code on Github](https://github.com/clickglue/testimonials-grid)
+- Live Site URL: Not available
 
 ## My process
 
