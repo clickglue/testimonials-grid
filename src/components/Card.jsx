@@ -13,7 +13,6 @@ export function Card({
   referenceBody,
 }) 
 {
-    console.log(areaNumber)
   return (
 
     <>

@@ -3,7 +3,7 @@ import "./components/Card";
 
 import cardData from "./cardData.json";
 import { Card } from "./components/Card";
-import Test from "./components/Test";
+
 
 function App() {
   return (
