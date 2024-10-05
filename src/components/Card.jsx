@@ -25,7 +25,7 @@ export function Card({
           backgroundRepeat: "no-repeat",
           gridArea: areaNumber,
           backgroundImage: cardIllustration
-            ? `url(${cardIllustration})`
+            ? cardIllustration
             : "none",
         }}
       >
