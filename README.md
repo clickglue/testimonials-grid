@@ -28,12 +28,12 @@ Your users should be able to:
 
 ### Screenshot
 
-![](./Scherm­afbeelding%202024-10-03%20om%2023.51.42.png)
+![](/Scherm­afbeelding%202024-10-05%20om%2019.07.44.png)
 
 ### Links
 
 - Solution URL: [Code on Github](https://github.com/clickglue/testimonials-grid)
-- Live Site URL: Not available
+- Live Site URL: [Live site on Github Pages](https://clickglue.github.io/testimonials-grid/)
 
 ## My process
 
@@ -63,13 +63,14 @@ Your users should be able to:
 
 ### What I learned
 
-Utopia
+React
+Deploying to githib with gh-pages
+Setting vite base variable
 Adaptive grid
 
 ### Continued development
 
-Need to learn more about adaptive design;
-Need to learn more about setting margins in adaptive design
+Was not able to sole the issue of a background image, that I wanted to set dynamically. All help welcome!
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
