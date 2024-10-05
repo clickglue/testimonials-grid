@@ -15,6 +15,7 @@ export function Card({
 {
   return (
     <>
+    
       <article
         className="card"
         style={{
@@ -24,7 +25,7 @@ export function Card({
           backgroundRepeat: "no-repeat",
           gridArea: areaNumber,
           backgroundImage: cardIllustration
-            ? cardIllustration
+            ? `url(${cardIllustration})`
             : "none",
         }}
       >
