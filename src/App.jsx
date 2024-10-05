@@ -1,11 +1,8 @@
 import "./App.css";
 import "./components/Card";
 
-import cardData from "./cardData.json";
+import {cardData} from "./cardData";
 import { Card } from "./components/Card";
-
-const assetPath=import.meta.env.BASE_URL
-console.log(assetPath)
 
 function App() {
   return (
@@ -16,7 +13,7 @@ function App() {
             key={item.personName}
             areaNumber={item.areaNumber}
             personName={item.personName}
-            personAvatar={assetPath + item.personAvatar}
+            personAvatar={item.personAvatar}
             personStatus={item.personStatus}
             referenceTitle={item.referenceTitle}
             referenceBody={item.referenceBody}
