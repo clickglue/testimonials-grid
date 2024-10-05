@@ -30,6 +30,7 @@ html{
 }
 .card-illustration {
   position: absolute;
+  
 }
 .person {
   display: grid;
@@ -79,8 +80,6 @@ html{
     grid-column-gap: 2%;
   }
 
-  .card{
 
-  }
 
 }
