@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import "../App.css";
 
+
 export function Card({
   areaNumber,
   cardColor,
@@ -12,10 +13,10 @@ export function Card({
   referenceTitle,
   referenceBody,
 }) 
+
 {
   return (
     <>
-    
       <article
         className="card"
         style={{
@@ -24,9 +25,7 @@ export function Card({
           backgroundPosition: "90% 0%",
           backgroundRepeat: "no-repeat",
           gridArea: areaNumber,
-          backgroundImage: cardIllustration
-            ? `url(${cardIllustration})`
-            : "none",
+          backgroundImage: cardIllustration ? `url(${import.meta.env.BASE_URL}${cardIllustration})` : "none"
         }}
       >
         <section className="person">

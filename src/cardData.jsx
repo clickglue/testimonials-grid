@@ -3,7 +3,7 @@ import imgJonathan from '../src/images/image-jonathan.jpg'
 import imgJeanette from '../src/images/image-jeanette.jpg'
 import imgPatrick from '../src/images/image-patrick.jpg'
 import imgKira from '../src/images/image-kira.jpg'
-import imgCardIllustration from '../src/images/bg-pattern-quotation.svg'
+const imgCardIllustration = 'src/images/bg-pattern-quotation.svg'
 
 export const cardData=[
   {
